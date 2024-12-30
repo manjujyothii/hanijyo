@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>
+            SDM polytechnic
+        </title>
+    </head>
+    <style>
+        #image{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <body style="background-color:aqua">
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <center>
+            <button><a href="home.html">Home</a></button>
+            <button><a href="department.html">Department</a></button>
+            <button><a href="library.html">Library</a></button>
+            <button><a href="admission.html">Admission</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </center>
+        <h2><b><center>Home page</center></b></h2>
+        <center>
+        <img id="image" src="./home.png"/>
+        </center>
+        <p>SDm polytechnic was established in the year 2008 and is managed by SDM educational society-ujire. The institution offers 3years 6semister diploma courses in the disciplines of civil engineering, 
+            computer science, electronic and communication and mechanical engineering. since its establishment management has taken huge strides towards enhancing excellence in education</p>
+    </body>
+</html>
+
+
+
+
+<html>
+    <head>
+        <title>
+            SDM polytechnic
+        </title>
+    </head>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+    <body style="background-color:aqua">
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <center>
+            <button><a href="home.html">Home</a></button>
+            <button><a href="department.html">Department</a></button>
+            <button><a href="library.html">Library</a></button>
+            <button><a href="admission.html">Admission</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </center>
+        <h2><b><center>Department</center></b></h2>
+        <table style="width:100%">
+            <tr>
+                <th>course</th><br>
+                <th>number of seats available</th><br>
+            <tr>
+                <td>computer science</td><br>
+                <td>60 seats</td><br>
+            </tr>
+            <tr>
+                <td>civil engineering</td><br>
+                <td>59 seats</td><br>
+            </tr>
+            <tr>
+                <td>electronics & communication</td><br>
+                <td>60 seats</td><br>
+            </tr>
+            <tr>
+                <td>mechanical engineering</td><br>
+                <td>57 seats</td><br>
+            </tr>
+        </table>  
+    </body>
+</html>
+
+
+
+
+<html>
+    <head>
+        <title>
+            SDM polytechnic
+        </title>
+    </head>
+    <body style="background-color:aqua">
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <center>
+            <button><a href="home.html">Home</a></button>
+            <button><a href="department.html">Department</a></button>
+            <button><a href="library.html">Library</a></button>
+            <button><a href="admission.html">Admission</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </center>
+        <h2><b><center>Admission</center></b></h2>
+        <p>We offer 3 year Diploma Courses for the below Departments<br>
+
+            Computer Science Engg. 60 Seats<br>
+            Electronics & Communication Engg. 60 Seats<br>
+            Mechanical Engg. 60 Seats<br>
+            Civil Engg. 60 Seats<br>
+        </p>
+        <p>    
+            We offer 3 year Diploma Courses for the below Departments<br>
+
+            Should have passed SSLC<br>
+            Should have studied in Karnataka for at least for 5 years or else Eligibility Certificate is to be obtained from DTE, Bangalore for Non-karnataka students/SSLC other than State Board<br>
+        </p>
+        <p>admission open for all batches <button><a href="form.html">click here</a></button> to fill out online admission form</p>
+    </body>
+</html>
+
+
+
+
+
+<html>
+    <head>
+        <title>Admission form</title>
+    </head>
+    <body>
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <h2><b><center>Admission form</center></b></h2>
+        <hr color="red">
+        <p>fill the form without missing any details</p>
+        <form>
+            First name:<br>
+            <input type="text" name="T1" size="10"/><br>
+            Middle name:<br>
+            <input type="text" name="T2" size="10"/><br>
+            Last name:<br>
+            <input type="text" name="T3" size="10"/><br>
+            Address:<br>
+            <textarea name="T4" rows="6" cols="25"></textarea><br>
+            state:<br>
+            <select name="T5">
+                <option value="KA">Karnataka</option> 
+                <option value="KL">Kerala</option>
+                <option value="TN">Tamilnadu</option>
+                <option value="TL">Telangana</option>
+                <option value="GA">goa</option>
+            </select><br>
+            Gender<br><input type="radio" name="T6" value="M">MALE<br>
+            <input type="radio" name="T6" value="F">FEMALE<br>
+            Choice of course:<br>
+            <select name="T7">
+                <option value="CS">Computer science </option> 
+                <option value="CE">Civil engineering</option>
+                <option value="EC">electronics & communication</option>
+                <option value="ME">mechanical engineering</option>
+            </select><br>
+            Qualification:<br>
+            <input type="checkbox" name="T8" value="sslc">SSLC<br>
+            <input type="checkbox" name="T9" value="puc">PUC<br>
+            <input type="checkbox" name="T10" value="iti">ITI<br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="clear">
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>
+            SDM polytechnic
+        </title>
+    </head>
+    <body style="background-color:aqua">
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <center>
+            <button><a href="home.html">Home</a></button>
+            <button><a href="department.html">Department</a></button>
+            <button><a href="library.html">Library</a></button>
+            <button><a href="admission.html">Admission</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </center>
+        <h2><b><center>Contact details</center></b></h2>
+        <p>for further enquirey contact us <br>
+        The principle<br>
+        SDM polytechnic<br>
+        ujire 574240<br>
+        Email:sdmpolytechnic@gmail.com<br>
+        ph.no:1234567890<br>
+        </p>
+        <form>
+            Name:<br>
+            <input type="text" name="T1" size="10"/><br>
+            Email:<br>
+            <input type="text" name="T2" size="25"/><br>
+            Message:<br>
+            <textarea name="T3" rows="10" cols="40"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="clear">
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+<html>
+    <head>
+        <title>
+            SDM polytechnic
+        </title>
+    </head>
+    <body style="background-color:aqua">
+        <h1><b><center>SDM polytechnic</center></b></h1>
+        <center>
+            <button><a href="home.html">Home</a></button>
+            <button><a href="department.html">Department</a></button>
+            <button><a href="library.html">Library</a></button>
+            <button><a href="admission.html">Admission</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        </center>
+        <h2><b><center>library</center></b></h2>
+        <center><p>The college library plays a very important role in promoting<br>
+            the advancement of knowledge & acts as the backbone of a civilized<br>
+             society & the heart of the educational institution.</p>
+        </center>   
+    </body>
+</html>
